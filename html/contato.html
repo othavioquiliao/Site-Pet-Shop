@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato</title>
+        <link href="../css/reset-css.css" rel="stylesheet">
+        <link href="../css/padrao-style.css" rel="stylesheet">
+        <link href="../css/contato-style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img class="logo-header" src="../img/logo-colored.svg" alt="logo-colored">
+            <label class="toggle-button" for="toggle"><img class="img-3bars" src="../img/bars-solid.svg" alt="bars">
+            </label>
+            <input class="toggle-checkbox" id="toggle" type="checkbox">
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="servicos.html">Serviços</a>
+                <a href="produtos.html">Produtos</a>
+                <a class="link-ativo"href="contato.html">Contato</a>
+            </nav>
+        </header>
+        <main class="container">
+                
+                <div class="container__conteudo">
+                    
+                    <div class="form__direita">
+                        <p class="h-funcionamento">Horarios de funcionamento</p>
+                        <p class="p-de-segunda-a">
+                            De Segunda a Sexta-feira das 9 às 19hs. <br>
+                            Aos Sábados das 9 às 18hs.
+                        </p>
+                        <p class="t-direita-fale-conosco">Telefone</p>
+                        <p class="p-direira-fale-conosco">(00)9999-9999</p>
+                        <p class="t-direita-fale-conosco">E-mail</p>
+                        <p class="p-direira-fale-conosco">contato@petshop.com.br</p>
+                        <p class="t-direita-fale-conosco">Endereço</p>
+                        <p class="p-direira-fale-conosco">
+                            Estrada sem nome, 1234, Sala 0, Bairro - Cidade / UF<br>
+                            12345-678
+                        </p>
+                        <p class="t-direita-fale-conosco">Localização</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13897.824254392315!2d-51.97456144458009!3d-29.444690200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951c618a53718fdf%3A0x70b8ec4ae586d3b8!2sUnivates!5e0!3m2!1spt-BR!2sbr!4v1684286039784!5m2!1spt-BR!2sbr" width="100%" height="250px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <form action="POST" class="container__form">
+                        <label class="form__titles" for="nome">Nome</label>
+                        <input class="form__input" type="text" name="nome" id="nome">
+                        <label class="form__titles" for="email">E-mail</label>
+                        <input class="form__input" type="email" name="email" id="email">
+                        <label class="form__titles" for="telefone">Telefone</label>
+                        <input class="form__input" type="tel" name="telefone" id="telefone">
+                        <label class="form__titles" for="estado">Estado</label>
+                        <select class="form__select" id="estados">
+                            <option value="#">Selecione</option>
+                            <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                            <option value="Santa Catarina">Santa Catarina</option>
+                        </select>
+                        <label class="form__titles" for="cidades">Cidade</label>
+                        <select class="form__select">
+                            <option value="#"> Selecione</option>
+                            <option value="lajeado">Lajeado</option>
+                            <option value="blumenau">Blumenau</option>
+                        </select>
+                        <label class="form__titles" for="textarea">Mensagem</label>
+                        <textarea class="form__textbox" name="textarea" id="textarea"></textarea>
+                    </form>
+                    <h1>Fale Conosco</h1>
+                </div>
+        </main>
+        <footer>
+            <img class="f-logo" src="../img/logo-white.svg" alt="logo-white">
+            <div class="f-contatos">
+                <p class="f-titulos">Contato</p>
+                <address>
+                    Estrada sem nome, 1234, Sala 0 <br>
+                    Bairro - Cidade/UF <br>
+                    12345-678 <br>
+                    <b>(00) 99999-9999</b><br>
+                    <b>contato@petshop.com.br</b>
+                </address>
+            </div>
+            <div class="f-horarios">
+                <p class="f-titulos">Horário de funcionamento</p>
+                <p>De Segunda a Sexta-feira das 9 às 19hs. <br></p>
+                <p>Aos Sábados das 9 às 18hs.</p>
+            </div>
+            <div class="f-social-midia">
+                <p class="f-titulos">Siga-nos</p>
+                <img src="../img/Ícones/social-midia/facebook.svg" alt="icone-facebook">
+                <img src="../img/Ícones/social-midia/instagram.svg" alt="icone-instagram">
+                <img src="../img/Ícones/social-midia/tiktok.svg" alt="icone-tiktok">
+                <img src="../img/Ícones/social-midia/twitter.svg" alt="icone-twitter">
+                <img src="../img/Ícones/social-midia/youtube.svg" alt="icone-youtube">
+            </div>
+            <div class="copyright">
+                <p>
+                    © 2022 pet&shop | Todos os direitos reservados. Desenvolvido
+                    por Crie_TI
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

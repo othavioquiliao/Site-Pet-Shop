@@ -1,0 +1,103 @@
+
+.container h1{
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 2vh
+}
+.container__conteudo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    padding: 5vw;
+}
+.container__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1vh;
+    color: #858585                                                                                                                                  ;                                                         
+}
+
+.form__titles{
+    display: flex;
+    width: 100%;   
+    font-size: 13px;   
+    padding-bottom: 3px;                  
+}
+
+.form__input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1vh;
+    width: 95%;
+    padding: 8px;
+}
+.form__select{
+    display: flex;  
+    margin-bottom: 1vh;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #858585;
+    padding: 8px;
+    border-radius: 2px;
+
+}
+.form__textbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1vh;
+    width: 100%;
+    border: 1px solid #858585;
+    height: 10vh;
+}
+
+.form__direita{
+    line-height: 1.5
+}
+
+.h-funcionamento{
+    font-size: 13px;
+    color: #858585;
+    padding-bottom: 1vh;
+}
+.p-de-segunda-a{
+    font-size: 13px;
+    padding-bottom: 1vh;
+}
+.t-direita-fale-conosco{
+    font-size: 13px;
+    color: #858585;
+}
+
+.p-direira-fale-conosco{
+    font-size: 13px;
+    padding-bottom: 1vh;
+    color: #FF0077;
+}
+
+@media (min-width: 900px) {
+    .container__conteudo{
+        flex-direction: row-reverse;   
+        flex-wrap: wrap-reverse; 
+        justify-content: space-between;    
+        padding: 20px 120px;
+    }
+    
+    .container h1{
+        width: 100%;
+    }
+
+    .container__form{
+        justify-content: space-evenly;
+        width: 50%;
+    }
+    .form__direita{
+        width: 45%;
+    }
+
+}

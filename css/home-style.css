@@ -1,0 +1,229 @@
+main {
+    display            : flex;
+    justify-content    : center;
+    align-items        : center;
+    flex-direction     : column;
+
+}
+
+.banner {
+    display            : flex;
+    align-items        : center;
+    justify-content    : center;
+    object-fit         : cover;
+    margin             : 0;
+    width              : 100vw;
+}
+
+/* ============ SERVIÇOS ===================== */
+/*  ----- fonts e colors dos serviços -----*/
+.titulo-servicos {
+    font-size      : 7vw;
+    color          : #000;
+    font-weight    : 700;
+    padding        : 15vw;
+}
+
+.servicos-home .nome-servicos {
+    color          : #FF0077;
+    font-size      : 25px;
+    font-weight    : bold;
+}
+
+.servicos-home p {
+    color          : #858585;
+    font-weight    : 400;
+    font-size: 1.2rem;
+}
+
+/* ----------- Serviços configs  */
+
+.container-servicos {
+    display            : flex;
+    justify-content    : space-between;
+    align-items        : center;
+    flex-direction     : column;
+    text-align         : center;
+    height             : 250vw;
+    margin-bottom      : 10vw;
+}
+
+
+.servicos-home {
+    display            : flex;
+    align-items        : center;
+    justify-content    : space-around;
+    flex-direction     : column;
+    height             : 35vh;
+    width              : 80vw;
+    line-height        : 1.3;
+
+}
+
+.container-servicos img {
+    width     : 100vw;
+    height    : 15vw;
+}
+
+
+/* ============ SOBRE ===================== */
+.sobre-home {
+    display            : flex;
+    align-items        : flex-start;
+    justify-content    : space-between;
+    flex-direction     : column;
+
+    background-color    : #0077ff;
+    color               : #fff;
+    font-size           : 20px;
+    padding             : 5vh 10vw 5vh 10vw;
+
+}
+
+.sobre-home img {
+    height           : 5vh;
+    margin-bottom    : 4vh;
+}
+
+
+/* ============ PRODUTOS ===================== */
+
+.container-produtos-home {
+    display            : flex;
+    align-items        : center;
+    justify-content    : space-between;
+    flex-wrap          : wrap;
+    text-align         : center;
+    padding            : 10vw;
+}
+
+
+.container-produtos-home h1 {
+    width          : 100%;
+    height         : 60px;
+    font-size      : 7vw;
+    color          : #000;
+    font-weight    : 700;
+}
+
+.produtos-home img {
+    width    : 35vw;
+}
+
+.produtos-home {
+    line-height    : 1.3;
+    display            : flex;
+    align-items        : center;
+    justify-content    : space-around;
+    flex-direction     : column;
+    width              : 35vw;
+    height             : 35vh;
+    text-align         : center;
+    margin-bottom      : 3vh;
+}
+
+.produtos-home .preco-produtos {
+    font-weight    : 600;
+    color          : #FF0077;
+}
+
+.produtos-home p {
+    font-size    : 16px;
+    color        : #858585;
+}
+.servicos-home p{
+    font-size: 14px;
+    color: #858585;
+}
+
+.btn-ver-mais {
+    display             : flex;
+    align-items         : center;
+    justify-content     : center;
+    width               : 35vw;
+    height              : 10vw;
+    background-color    : #FF0077;
+    color               : #fff;
+    margin-bottom       : 20vw;
+    border-radius       : 10px;
+    font-size           : 16px;
+    font-weight         : bold;
+    border              : 1px solid #fff;
+}
+
+@media (min-width: 900px) {
+    .banner{
+        height: 100vh;
+        object-fit: cover;
+    }
+    .container-servicos{
+        height: 60vh;
+        margin: 0;
+        justify-content:space-between;
+        gap: 5px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0 120px;
+    }
+    .servicos-home{
+        height: 40vh;
+        width: 20vw;
+        justify-content: space-evenly;
+    }
+    
+    .servicos-home img{
+        height: 15vh;
+        width: 10vw;
+        object-fit: contain;
+    }
+    .servicos-home p{
+        font-size: 1.2rem; 
+    }
+    
+    
+   .titulo-servicos{
+    font-size: 2.5rem;
+    padding: 2vh 0;
+    width: 100%;
+   } 
+   /* Sobre */
+    .sobre-home{
+        font-size: 1.4rem;
+    }
+    /* produtos */
+    .container-produtos-home{
+        padding: 0 120px;
+        justify-content: space-between;
+    }
+    .produtos-home{
+        width: 20vw;
+        height: 25vh;
+        justify-content: space-around;
+        margin-bottom: 2vh;
+        border: 1px solid none;
+    }
+    .produtos-home img{
+        width: 15vw;
+        height: 15vh;
+        object-fit: contain;
+    }
+    .container-produtos-home h1{
+        font-size: 2.5rem;
+        padding: 4vh 0;
+    }
+    .produtos-home p{
+        font-size: 1.1rem;
+    }
+    .produtos-home-itens:hover{
+        opacity: 60%;
+    }
+    .btn-ver-mais{
+        width: 20vw;
+        height: 6vw;
+        font-size: 1.3rem;
+        margin: 5vh 0;
+        width: 15vw;
+        height: 5vw;
+    }
+    /*  */
+}

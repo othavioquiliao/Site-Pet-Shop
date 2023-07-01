@@ -1,0 +1,124 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgs{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.container__texto{
+    display: flex;
+    flex-direction: column;
+    padding: 10vw;
+
+}
+
+.titulo__texto__branco{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+/* ======== banho e tosa ========== */
+.titulo__banho-tosa{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #FF0077;
+
+}
+.container__texto___banho-tosa p{
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color          : #858585;
+}
+
+/* ====== centro medico ========= */
+.container__texto_centro-medico{
+    background-color: #FF0077;
+    color: #fff;
+    margin-top: -2px;
+}
+
+.container__texto_centro-medico p{
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color          : #fff;
+}
+
+/* ========= farmacia pet =========*/
+
+.container__texto__farmacia{
+    background-color: #0077ff;
+    color: #fff;
+    margin-top: -2px;
+}
+.container__texto__farmacia p{
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color          : #fff;
+}
+
+
+/* ========= tele entrega =========*/
+
+.container__texto__entrega{
+    background-color: #FF320D;
+    color: #fff;
+    margin-top: -2px;
+}
+.container__texto__entrega p{
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color          : #fff;
+}
+
+/* ========= Tele Busca =========*/
+.container__texto__busca{
+    background-color: #C10DFF;
+    color: #fff;
+    margin-top: -2px;
+}
+.container__texto__busca p{
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color          : #fff;
+}
+
+/* ========= Creche =========*/
+.container__texto__creche{
+    background-color: #6cf515;
+    color: #fff;
+    margin-top: -2px;
+}
+.container__texto__creche p{
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color          : #fff;
+}
+/* ========= Hotel =========*/
+.container__texto__hotel{
+    background-color: #382C32;
+    color: #fff;
+    margin-top: -2px;
+}
+.container__texto__hotel p{
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color          : #fff;
+}
+.imgs-last{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0px -250px;
+}
